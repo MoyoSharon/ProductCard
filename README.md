@@ -25,11 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Desktop view](desktop product.png)
+![Mobile View](mobile product.png
 
 ### Links
 
-- Solution URL: [solution URL](https://your-solution-url.com)
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/product-preview-card-with-css-flexbox-6d9mZoQVfW)
 - Live Site URL: [live site URL](https://productcard-moyo.netlify.app/)
 
 ### Built with
