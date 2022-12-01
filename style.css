@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  margin: 10rem 30vw 10rem 30vw;
+  font-size: 14px;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.font1 {
+  font-family: 'Montserrat';
+}
+
+.font2 {
+  font-family: 'Fraunces', serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+#main {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 40vw;
+  justify-content: center;
+}
+
+#main .images {
+  background-image: url(/product-preview-card-component-main/image-product-mobile.jpg);
+  border: 1px solid white;
+  background-size: 100% 100%;
+  border-radius: 10px 10px 0 0;
+  height: auto;
+  max-width: calc(100% / 2);
+  width: 100%;
+}
+
+#main #preview {
+  width: calc(100% / 2);
+  padding: 10px;
+  text-align: left;
+}
+
+#headline {
+  letter-spacing: 0.5rem;
+}
+
+#discount {
+  color: hsl(158, 36%, 37%);
+  width: 30%;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+div #price {
+  display: block;
+  width: 70%;
+  transform: translate(4rem, -2rem);
+  padding-left: 5px;
+  font-size: 7px;
+  text-decoration: line-through;
+}
+
+#price:hover {
+  font-size: 14px;
+}
+
+#cart {
+  border: 1px solid hsl(158, 36%, 37%);
+  background-color: hsl(158, 36%, 37%);
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#cart::before {
+  content: url(/product-preview-card-component-main/images/icon-cart.svg);
+}
+
+#cart:hover {
+  border: 1px solid hsl(158, 36%, 20%);
+  background-color: hsl(158, 36%, 20%);
+}
+
+#info,
+#headline,
+#price {
+  color: hsl(228, 12%, 48%);
+}
+
+h1 {
+  color: hsl(212, 21%, 14%);
+}
+
+@media only screen and (max-width:600px) {
+  #main {
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+    justify-content: center;
+  }
+
+  body {
+    margin: 10px;
+    padding: auto;
+  }
+
+  #main #preview,
+  .images {
+    width: 100%;
+    max-width: 100% !important;
+  }
+
+  #main #preview {
+    padding: 10px 25px 10px 25px;
+    margin: 0;
+  }
+
+  #discount {
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+
+  div #price {
+    display: block;
+    transform: translate(8.5rem, -1.5rem);
+    font-size: 15px !important;
+    width: 40%;
+    margin: 0px;
+  }
+
+  #cart {
+    display: block;
+    margin: 0px 0 10px 0;
+    padding: 10px 5px;
+    font-size: 15px;
+  }
+
+  #main .images {
+    padding: 0px;
+    margin: 0px;
+    background-image: url(/product-preview-card-component-main/image-product-mobile.jpg);
+    height: 50vh;
+  }
+}
