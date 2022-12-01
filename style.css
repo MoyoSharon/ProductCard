@@ -165,4 +165,8 @@ h1 {
   #discount {
     font-size: 20px;
   }
+  #price  {
+    font-size: 10px
+    transform: translate(4.5rem, -1.5rem);
+  }
 }
