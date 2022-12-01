@@ -161,3 +161,8 @@ h1 {
     height: 50vh;
   }
 }
+@media only screen and (max-width: 770px){
+  #discount {
+    font-size: 20px;
+  }
+}
