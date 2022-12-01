@@ -42,7 +42,7 @@ body {
 }
 
 #main .images {
-  background-image: url(image-product-mobile.jpg);
+  background-image: url(image-product-desktop.jpg);
   border: 1px solid white;
   background-size: 100% 100%;
   border-radius: 10px 10px 0 0;
@@ -65,15 +65,16 @@ body {
   color: hsl(158, 36%, 37%);
   width: 30%;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 25px;
+  margin-bottom: 0px;
 }
 
 div #price {
   display: block;
   width: 70%;
-  transform: translate(4rem, -2rem);
+  transform: translate(6.5rem, -1.5rem);
   padding-left: 5px;
-  font-size: 7px;
+  font-size: 15px;
   text-decoration: line-through;
 }
 
